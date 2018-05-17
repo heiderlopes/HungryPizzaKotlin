@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hungry4Pizza</string>
+    <string name="txt_login">Login</string>
+    <string name="hint_login">Informe o login</string>
+    <string name="txt_senha">Senha</string>
+    <string name="hint_senha">Informe sua senha</string>
+    <string name="botao_login">Conectar</string>
+    <string name="txt_saudacao">Ola</string>
+    <string name="txt_escolha_pizza">Escolha a(s) pizza(s)</string>
+    <string name="txt_pizza_atum">Atum</string>
+    <string name="txt_pizza_bacon">Bacon</string>
+    <string name="txt_pizza_calabresa">Calabresa</string>
+    <string name="txt_pizza_mussarela">Mussarela</string>
+    <string name="txt_tamanho_pizza">Tamanho da Pizza</string>
+    <string name="txt_pizza_pequena">Pequena</string>
+    <string name="txt_pizza_media">Média</string>
+    <string name="txt_pizza_grande">Grande</string>
+    <string name="txt_forma_pagamento">Forma de Pagamento</string>
+    <string name="txt_extras">Extras</string>
+    <string name="txt_borda_recheada">Borda Recheada</string>
+    <string name="txt_recheio_extra">Recheio Extra</string>
+    <string name="txt_refrigerante">Refrigerante</string>
+    <string name="txt_sobremesa">Sobremesa</string>
+    <string name="txt_calcular">Calcular</string>
+    <string name="txt_cheque">Cheque</string>
+    <string name="txt_cartao">Cartao</string>
+    <string name="txt_vr">VR</string>
+    <string name="txt_dinheiro">Dinheiro</string>
+    <string name="mensagem_pagamento">%1$f pago com %2$s</string>
+</resources>

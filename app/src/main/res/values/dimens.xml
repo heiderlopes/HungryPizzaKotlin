@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_padrao_botao_customizado">10dp</dimen>
+    <dimen name="radius_padrao_botao_customizado">4dp</dimen>
+    <dimen name="width_padrao_stroke_botao_customizado">1dp</dimen>
+    <dimen name="botao_tamanho_texto">16sp</dimen>
+    <dimen name="padding_padrao">16dp</dimen>
+    <dimen name="largura_logo_splash">150dp</dimen>
+    <dimen name="altura_logo_splash">150dp</dimen>
+
+</resources>

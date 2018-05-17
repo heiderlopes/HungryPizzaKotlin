@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.logonpf.hungrypizza.DetalhePedidoActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner_pizza" />
+
+    <TextView
+        style="@style/Fiap.Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhe do Pedido" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliente: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNomeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heider Lopes" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forma de Pagamento: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFormaPagamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VR" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabor(es): "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSabores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bacon" />
+
+</LinearLayout>

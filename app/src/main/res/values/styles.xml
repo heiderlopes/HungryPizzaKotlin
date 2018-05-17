@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Fiap">
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+    <style name="Fiap.Botao">
+        <item name="android:background">@drawable/botao_personalizado</item>
+        <item name="android:textSize">@dimen/botao_tamanho_texto</item>
+    </style>
+
+    <style name="Fiap.Header">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:padding">@dimen/padding_padrao</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginBottom">@dimen/padding_padrao</item>
+        <item name="android:layout_marginTop">@dimen/padding_padrao</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

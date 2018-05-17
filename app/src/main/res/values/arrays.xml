@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Opções para o Spinner (Combobox) -->
+    <string-array name="opcoes_pagamentos">
+        <item>@string/txt_cartao</item>
+        <item>@string/txt_vr</item>
+        <item>@string/txt_cheque</item>
+        <item>@string/txt_dinheiro</item>
+    </string-array>
+</resources>
